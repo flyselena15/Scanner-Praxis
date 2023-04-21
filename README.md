@@ -23,7 +23,7 @@ https://www.pdflabs.com/tools/pdftk-server/
 Mac Install:                    | Linux Install:
 -----------------------------   | --------------------------
 sudo port selfupdate            | sudo apt-get update
-sudo port install scantailor    | sudo apt-get install scantailor
+sudo port install scantailor-universal    | sudo apt-get install scantailor-universal
 sudo port install ImageMagick   | sudo apt-get install imagemagick
 sudo port install tesseract     | sudo apt-get install tesseract-ocr
 sudo port install tesseract-eng | sudo apt-get install libtesseract-dev
