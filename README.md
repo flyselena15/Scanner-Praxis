@@ -31,12 +31,12 @@ sudo port install tesseract-eng | sudo apt-get install libtesseract-dev
 
 
 There are two versions of Scanner-Praxis 
-* Dual Camera Version
-Source code under the folder - /ScannerGUI
-It allowed people to scan pictures and turn it to PDF when your computer can connect both cameras.
-After chossing left camera and right camera, you can click easy run to download pictures from both camera and automatically rotate, tail, combine and turn into PDF.
+* Dual Camera Version</br>
+Source code under the folder - /ScannerGUI</br>
+It allowed people to scan pictures and turn it to PDF when your computer can connect both cameras.</br>
+After chossing left camera and right camera, you can click easy run to download pictures from both camera and automatically rotate, tail, combine and turn into PDF.</br>
 
-* Switch Camera Version (Download from one camera each time)
-Source code under the folder - /ScannerGUI_SwitchCamera/src
-If your computer cannot connect to 2 cameras at the same time, you will need to have "switcher".
-This version of Scanner-Praxis allows you to download from one camera and it will ask you to switch to another to do the rest of work.
+* Switch Camera Version (Download from one camera each time)</br>
+Source code under the folder - /ScannerGUI_SwitchCamera/src</br>
+If your computer cannot connect to 2 cameras at the same time, you will need to have "switcher".</br>
+This version of Scanner-Praxis allows you to download from one camera and it will ask you to switch to another to do the rest of work.</br>
