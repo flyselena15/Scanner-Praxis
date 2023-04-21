@@ -820,13 +820,13 @@ public class Controller {
 
             ArrayList<String> commands = new ArrayList<String>();
 
-            String[] command = {"scantailor-cli",
+            String[] command = {"scantailor-universal-cli",
                 "--layout=" + layout,
                 "--layout-direction=" + layoutDirection,
                 "--orientation=" + orientation,
                 "--rotate=" + rotate,
                 "--deskew=" + deskew,
-                "--content-direction=" + contentDirection,
+                "--content-detection=" + contentDirection,
                 "--margins=" + margins,
                 "--alignment=" + alignment,
                 "--dpi=" + dpi,
@@ -854,13 +854,13 @@ public class Controller {
             }*/
 
             if(os.contains("win")){
-                command = new String[]{"C:\\Program Files\\Scan Tailor\\scantailor-cli.exe",
+                command = new String[]{"C:\\Program Files\\Scan Tailor\\scantailor-universal-cli.exe",
                         "--layout=" + layout,
                         "--layout-direction=" + layoutDirection,
                         "--orientation=" + orientation,
                         "--rotate=" + rotate,
                         "--deskew=" + deskew,
-                        "--content-direction=" + contentDirection,
+                        "--content-detection=" + contentDirection,
                         "--margins=" + margins,
                         "--alignment=" + alignment,
                         "--dpi=" + dpi,
